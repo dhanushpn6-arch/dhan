@@ -14,6 +14,7 @@ class Node:
             elif data > self.data:
                 if self.right is None:
                     self.right = Node(data)
+                    
                 else:
                     self.right.insert(data)
         else:
