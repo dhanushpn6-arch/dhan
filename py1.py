@@ -46,6 +46,7 @@ def postorder(root):
                 print(root.data),
 
 root = Node(27)
+
 root.insert(14)
 root.insert(35)
 root.insert(3)
